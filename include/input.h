@@ -8,7 +8,11 @@
 #ifndef INCLUDE_INPUT_H_
 #define INCLUDE_INPUT_H_
 
-void input();
+void input1();
+void input2();
+void input3();
+void input4();
+void input5();
 
 
 #endif /* INCLUDE_INPUT_H_ */

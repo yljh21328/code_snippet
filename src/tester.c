@@ -17,9 +17,13 @@ int main() {
 	printf("This is a code snippet project.\n");
 	//allocate();
 	//data_type();
-	//input();
+	//input1();
+	//input2();
+	//input3();
+	//input4();
+	input5();
 	//output();
-	variable();
+	//variable();
 
 	return 0;
 

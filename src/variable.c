@@ -29,4 +29,7 @@ void variable() {
 	printf("PI:%f\n", PI); //單精度
 	printf("PI:%lf\n", PI);//倍精度
 
+	unsigned int i = 123;
+	printf("Unsigned int: %d", i);
+
 }

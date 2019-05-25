@@ -23,4 +23,24 @@ void output() {
 	int *ptr = NULL;
 	ptr = malloc(1);
 	printf("顯示指標%p\n", ptr);
+
+	//顯示print了幾個字元
+	int count = printf("This is a test!\n");
+	printf("%d\n", count);
+
+	//指定到小數點後第二位
+	printf("example:%.2f\n", 19.234);
+
+	//保留6個寬度位置給浮點數(靠右對齊)
+	printf("example:%6.2f\n", 19.234);
+	//保留6個寬度位置給浮點數(靠左對齊)
+	printf("example:%-6.2f\n", 19.234);
+
+	//以參數的方式保留寬度
+	printf("===%*d===\n", 1, 1);
+	printf("===%*d===\n", 2, 1);
+	printf("===%*d===\n", 3, 1);
+	printf("===%-*d===\n", 1, 1);
+	printf("===%-*d===\n", 2, 1);
+	printf("===%-*d===\n", 3, 1);
 }
